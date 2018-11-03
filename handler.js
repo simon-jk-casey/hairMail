@@ -39,7 +39,7 @@ function generateEmailParams (body) {
 
   return {
     Source: myEmail,
-    Destination: { toAddresses: [myEmail] },
+    Destination: { ToAddresses: [myEmail] },
     ReplyToAddresses: [email],
     Message: {
       Body: {
